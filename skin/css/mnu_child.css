@@ -1,0 +1,78 @@
+/* Outline Child CSS */
+ul.sw_child_navList {
+	margin: 0em;
+	padding: 0em;
+	list-style: none;
+}
+ul.sw_child_navList li a, ul.sw_child_navList li span{
+	font-size: 1.3em;
+	text-decoration: none;
+	min-height: 40px;
+	display: block;
+	padding-left: 42px;
+	padding-top:5px;
+	cursor: hand;
+	cursor: pointer;
+	color:#5e5e5e
+}
+ul.sw_child_navList li a{
+	background: url(../img/deco/liste_exo.png) no-repeat top left;
+}
+ul.sw_child_navList li a:hover span{
+	color: #F7941E;
+}
+ul.sw_child_navList .mnu_ueDiv {
+	background: url(../img/deco/ueDivChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_assmntUa {
+	background: url(../img/deco/assmntUaChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_courseUa {
+	background: url(../img/deco/courseUaChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_intro {
+	background: url(../img/deco/introChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_conclu {
+	background: url(../img/deco/concluChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_expUc {
+	background: url(../img/deco/expUcChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_practUc {
+	background: url(../img/deco/practUcChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_trainUc {
+	background: url(../img/deco/trainUcChild.png) no-repeat top left;
+}
+ul.sw_child_navList .mnu_quest {
+	background: url(../img/deco/questChild.png) no-repeat top left;
+}
+
+.childs{
+	margin:auto;	
+	margin-top:30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px; 
+	padding:10px;
+	width:80%;
+}
+
+/* MODIFICATIONS */
+
+ul.sw_child_navList li a:hover span {
+    color: #2CC990;
+}
+
+.childs{
+	-webkit-box-shadow: 0px gray;
+	-moz-box-shadow: 0px gray;
+	box-shadow: 0px gray;
+}
+
+ul.sw_child_navList li a, ul.sw_child_navList li span{
+	padding-left: 55px;
+	padding-top: 10px;
+}
+
